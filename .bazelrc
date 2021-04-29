@@ -1,0 +1,6 @@
+build --cxxopt="--std=c++17"
+build --copt=-O0
+build --copt=-g
+build --copt="-faligned-new"
+build --strip=never
+build --jobs=8
